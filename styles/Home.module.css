@@ -45,6 +45,16 @@
   width: var(--max-width);
   max-width: 100%;
 }
+.post{
+  width: 100%;
+  padding: 10px;
+  background-color: turquoise;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  margin-top: 1rem;
+  font-size: 20px;
+}
 
 .card {
   padding: 1rem 1.2rem;
