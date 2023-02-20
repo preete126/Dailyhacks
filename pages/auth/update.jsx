@@ -21,7 +21,7 @@ function Update() {
                         <h5 className="fs-2 fw-bold">Password Updated </h5>
                         <div className="my-5" style={{ fontSize: "17px", color: "rgb(119,123,127)" }}> Your password has been changed successfully. Use your new password to log in. </div>
                         <Link className="tw-no-underline" href={"/auth/login"}>
-                            <button type="submit" className={`my-4 p-3 w-50 rounded mx-auto d-block fs-5 ${auths.log_google}`}>
+                            <button type="submit" className={`my-4 p-2 w-50 rounded mx-auto d-block fs-5 ${auths.log_google}`}>
                                 Login now
                             </button>
                         </Link>
