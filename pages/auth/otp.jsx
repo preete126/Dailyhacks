@@ -11,7 +11,7 @@ function Otp() {
     const navigate = useRouter()
 
 
-    const new_code = (ev)=>{
+    const new_code = (ev) => {
         ev.preventDefault();
         navigate.push("/auth/new_password")
     }
@@ -62,9 +62,9 @@ function Otp() {
                             <div className={`d-flex tw-justify-between align-items-center ${auths.flex}`}>
                                 <button className={`${auths.log_google} tw-w-32 tw-text-lg tw-justify-center py-3 tw-font-semibold`}> Verify</button>
                                 <div className={`${auths.policy}`}>
-                                    
+
                                     <div>
-                                       Didn't get the code?
+                                        Didn&apos;t get the code?
                                         <a href="#"> Resend</a>
                                     </div>
                                 </div>
