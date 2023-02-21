@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import Landing_page from './landing_page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,10 +17,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-       <h1>hello</h1>
-       <Link href={"/example"}>
-        <p className='tw-text-3xl font-bold '>fetch</p>
-       </Link>
+        <Landing_page />
+        <Link href={"/example"}>
+          <p className='tw-text-3xl font-bold '>fetch</p>
+        </Link>
       </main>
     </>
   )
